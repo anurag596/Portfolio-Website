@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="home">
+            <div class="left">Anurag Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="leftSection">
+                Hi, My name is
+                <span class="colored-name">Anurag Malasi</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>   <!-- Element to contain animated typing -->
+                <br>
+                <div class="button">
+                    <a href="anuragResume.pdf" target="_blank">
+                        <button class="resumeButton">Download my resume</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/dev image.png" alt="Image of a developer with a computer and a desk.">
+            </div>
+        </section>
+        <hr id="about">
+        <h1 class="about">About Me</h1>
+        <section class="second-section">
+            <div class="left-section">
+                <img src="images/sherman.png" alt="">
+            </div>
+            <div class="right-section">
+                <p>Hello! I'm Anurag, a dedicated Bachelor of Technology student specializing in Computer Science
+                    Engineering at Dr. APJ Abdul Kalam Technical University.
+                    <br>
+                    <h2>When will i Graduate?</h2>
+                    <p>I am expected to graduate in the year 2026</p>
+                    <br>
+                    <h2>What I am doing currently?</h2>
+                    <p>I am learning frontend and backend technologies and I am also learning Data Structures and Algorithms.</p>
+                    <br>
+                    <h2>My Hobbies</h2>
+                    <p>Listening to music, travelling & playing football.</p>
+                </p>
+            </div>
+        </section>
+        <hr>
+        <h1 class="skill" id="skill">My Skills</h1>
+        <section class="third-section">
+            <div class="container-logo">
+                <div class="box box1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                </div>
+                <div class="box box2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                </div>
+                <div class="box box3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                </div>
+                <div class="box box4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+                </div>
+                <div class="box box5">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+                </div>
+                <div class="box box6">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />
+                </div>
+                <div class="box box7">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+                </div>
+                <div class="box box8">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+                </div>
+                <div class="box box9">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
+                </div>
+                <div class="box box10">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div>Anurag's Developer<br>Portfolio</div>
+                    <br>
+                    <span></span>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <ul>
+                        <li><a href="https://github.com/anurag596" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/anurag-malasi-b24627259/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://x.com/AnuragMalasi" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Anurag Malasi. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Problem Solver.', 'Coder.'],
+            typeSpeed: 40,
+            backDelay: 1300,
+            loop:true,
+        });
+    </script>
+</body>
+
+</html>
